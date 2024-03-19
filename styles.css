@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(110, 7, 45);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li:not(:last-of-type) {
+    border-right: 2px solid white;
+}
+
+ li {
+    padding: 1em 1.5em;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+ li:hover {
+    background-color:
+        #b90e4d;
+}
